@@ -3,6 +3,7 @@ import RequirementCard from '../components/RequirementCard';
 import Loader from '../components/Loader';
 import { Plock } from 'react-plock';
 import Header from '../components/Header';
+import Example from '../components/Dashboard';
 
 const data = [1, 2, 3, 4, 5];
 
@@ -52,6 +53,7 @@ const Requirements = () => {
     // <div className="grid grid-cols-1 bg-gray-100 md:grid-cols-2 lg:grid-cols-3  place-content-center px-7 py-10">
     <div className="p-6">
       <Header />
+      <Example />
       <Plock nColumns={breakpoints} gap={20} debounce={100}>
         {data.map((val, index) => {
           let bg = bgColor[index % 18];
