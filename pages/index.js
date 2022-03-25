@@ -176,6 +176,7 @@ const Index = () => {
                   { value: 'IntelliJ', label: 'IntelliJ' },
                   { value: 'PyCharm', label: 'PyCharm' },
                   { value: 'Unity', label: 'Unity' },
+                  { value: 'XCode', label: 'XCode'},
                 ]}
               />
 
